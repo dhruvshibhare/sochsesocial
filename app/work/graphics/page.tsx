@@ -3,17 +3,16 @@ import { ArrowLeft } from 'lucide-react';
 
 export default function Graphics() {
   const graphicsWork = [
-    { image: "/images/g1.png" },
-    { image: "/images/g2.png" },
-    { image: "/images/g3.png" },
-    { image: "/images/g4.png" },
-    { image: "/images/g5.png" },
-    { image: "/images/g6.png" },
-    { image: "/images/g7.png" },
-    { image: "/images/g8.png" },
-    { image: "/images/g9.png" },
-    { image: "/images/g10.png" },
-    
+    { image: process.env.NODE_ENV === 'production' ? '/sochsesocial/images/g1.png' : '/images/g1.png' },
+    { image: process.env.NODE_ENV === 'production' ? '/sochsesocial/images/g2.png' : '/images/g2.png' },
+    { image: process.env.NODE_ENV === 'production' ? '/sochsesocial/images/g3.png' : '/images/g3.png' },
+    { image: process.env.NODE_ENV === 'production' ? '/sochsesocial/images/g4.png' : '/images/g4.png' },
+    { image: process.env.NODE_ENV === 'production' ? '/sochsesocial/images/g5.png' : '/images/g5.png' },
+    { image: process.env.NODE_ENV === 'production' ? '/sochsesocial/images/g6.png' : '/images/g6.png' },
+    { image: process.env.NODE_ENV === 'production' ? '/sochsesocial/images/g7.png' : '/images/g7.png' },
+    { image: process.env.NODE_ENV === 'production' ? '/sochsesocial/images/g8.png' : '/images/g8.png' },
+    { image: process.env.NODE_ENV === 'production' ? '/sochsesocial/images/g9.png' : '/images/g9.png' },
+    { image: process.env.NODE_ENV === 'production' ? '/sochsesocial/images/g10.png' : '/images/g10.png' },
   ];
 
   return (
