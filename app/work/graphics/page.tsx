@@ -30,7 +30,7 @@ export default function Graphics() {
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 bg-gradient-to-r from-[#513cb3] to-[#d3f350] bg-clip-text text-transparent">
                 Graphics
             </h1>
-            <p className="text-base sm:text-lg lg:text-xl text-gray-200 max-w-1xl mx-auto">Numbers don’t lie, and we make sure yours speak loud and clear. From tracking reach and engagement to monitoring growth in followers, views, and clicks, we turn raw data into easy-to-understand insights. Expect monthly reports, clear growth snapshots, and strategies that adapt based on what’s actually working for your brand.
+            <p className="text-base sm:text-lg lg:text-xl text-gray-200 max-w-1xl mx-auto">
             Good design isn’t just about looking pretty, it’s about making people stop scrolling. Our graphics blend on-brand colours, clean layouts, and eye-catching elements that tell your brand story at a glance. From promotional posts to shareable infographics, we make sure every visual adds value and keeps your feed consistent, fresh, and professional.</p>
           </div>
         </div>
