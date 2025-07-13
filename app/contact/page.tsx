@@ -150,50 +150,14 @@ export default function Contact() {
                 </p>
               </div>
 
-              <div className="space-y-4 sm:space-y-6">
-                <div className="flex items-start space-x-3 sm:space-x-4">
-                  <div className="bg-[#513cb3] p-2 sm:p-3 rounded-lg">
-                    <Mail className="h-4 w-4 sm:h-6 sm:w-6 text-white" />
-                  </div>
-                  <div>
-                    <h3 className="text-base sm:text-lg font-semibold text-white mb-1">Email</h3>
-                    <p className="text-gray-300 text-sm sm:text-base">info@sochsesocial.com</p>
-                    <p className="text-gray-400 text-xs sm:text-sm">Response within 24 hours</p>
-                  </div>
+              <div className="flex items-start space-x-3 sm:space-x-4">
+                <div className="bg-[#513cb3] p-2 sm:p-3 rounded-lg">
+                  <Mail className="h-4 w-4 sm:h-6 sm:w-6 text-white" />
                 </div>
-
-                <div className="flex items-start space-x-3 sm:space-x-4">
-                  <div className="bg-[#d3f350] p-2 sm:p-3 rounded-lg">
-                    <Phone className="h-4 w-4 sm:h-6 sm:w-6 text-black" />
-                  </div>
-                  <div>
-                    <h3 className="text-base sm:text-lg font-semibold text-white mb-1">Phone</h3>
-                    <p className="text-gray-300 text-sm sm:text-base">+1 (555) 123-4567</p>
-                    <p className="text-gray-400 text-xs sm:text-sm">Mon-Fri 9AM-6PM EST</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start space-x-3 sm:space-x-4">
-                  <div className="bg-blue-500 p-2 sm:p-3 rounded-lg">
-                    <MapPin className="h-4 w-4 sm:h-6 sm:w-6 text-white" />
-                  </div>
-                  <div>
-                    <h3 className="text-base sm:text-lg font-semibold text-white mb-1">Office</h3>
-                    <p className="text-gray-300 text-sm sm:text-base">123 Marketing Street</p>
-                    <p className="text-gray-300 text-sm sm:text-base">Digital City, DC 12345</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start space-x-3 sm:space-x-4">
-                  <div className="bg-orange-500 p-2 sm:p-3 rounded-lg">
-                    <Clock className="h-4 w-4 sm:h-6 sm:w-6 text-white" />
-                  </div>
-                  <div>
-                    <h3 className="text-base sm:text-lg font-semibold text-white mb-1">Business Hours</h3>
-                    <p className="text-gray-300 text-sm sm:text-base">Monday - Friday: 9AM - 6PM</p>
-                    <p className="text-gray-300 text-sm sm:text-base">Saturday: 10AM - 4PM</p>
-                    <p className="text-gray-300 text-sm sm:text-base">Sunday: Closed</p>
-                  </div>
+                <div>
+                  <h3 className="text-base sm:text-lg font-semibold text-white mb-1">Email</h3>
+                  <p className="text-gray-300 text-sm sm:text-base">info@sochsesocial.com</p>
+                  <p className="text-gray-400 text-xs sm:text-sm">Response within 24 hours</p>
                 </div>
               </div>
 
