@@ -219,7 +219,7 @@ with enough flexibility to adapt as you grow.
               Get Free Consultation
             </Link>
             <Link
-              href="/work"
+              href="/grid"
               className="border-2 border-[#513cb3] text-[#513cb3] hover:bg-[#513cb3] hover:text-white px-6 py-3 sm:px-8 sm:py-4 rounded-full text-sm sm:text-base lg:text-lg font-semibold transition-all duration-300 transform hover:scale-105"
             >
               View Our Work
