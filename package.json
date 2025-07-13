@@ -2,7 +2,7 @@
   "name": "nextjs",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dhruvshibhare.github.io/",
+  "homepage": "https://dhruvshibhare.github.io/sochsesocial",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
