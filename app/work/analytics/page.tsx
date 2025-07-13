@@ -28,8 +28,8 @@ export default function Analytics() {
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 bg-gradient-to-r from-[#513cb3] to-[#d3f350] bg-clip-text text-transparent">
                 Analytics
             </h1>
-            <p className="text-base sm:text-lg lg:text-xl text-gray-200 max-w-1xl mx-auto">Numbers don’t lie, and we make sure yours speak loud and clear. From tracking reach and engagement to monitoring growth in followers, views, and clicks, we turn raw data into easy-to-understand insights. Expect monthly reports, clear growth snapshots, and strategies that adapt based on what’s actually working for your brand.
-            Your progress is always measurable and visible.</p>
+            <p className="text-base sm:text-lg lg:text-xl text-gray-200 max-w-1xl mx-auto">Numbers don’t lie, and we make sure yours speak loud and clear. From tracking reach and engagement to monitoring growth in followers, views, and clicks, we turn raw data into easy-to-understand insights. Expect monthly reports, clear growth snapshots, and strategies that adapt based on what’s actually working for your brand. 
+            Your progress is always measurable and visible. </p>
           </div>
         </div>
       </section>
