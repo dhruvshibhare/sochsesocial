@@ -62,7 +62,7 @@ export default function Founders() {
                     <img
                       src={founder.image}
                       alt={founder.name}
-                      className="w-full h-80 sm:h-96 object-cover rounded-xl sm:rounded-2xl transition-transform duration-500 group-hover:scale-105"
+                      className="w-full h-80 sm:h-96 object-contain rounded-xl sm:rounded-2xl transition-transform duration-500 group-hover:scale-105"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent rounded-xl sm:rounded-2xl"></div>
                   </div>
