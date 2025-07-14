@@ -6,6 +6,13 @@ import { X, MessageCircle, Gift, Sparkles } from 'lucide-react';
 const ConsultationPopup = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [isFormOpen, setIsFormOpen] = useState(false);
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    phone: '',
+    business: '',
+    service: ''
+  });
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -15,10 +22,34 @@ const ConsultationPopup = () => {
     return () => clearTimeout(timer);
   }, []);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value
+    });
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setIsFormOpen(false);
-    setIsVisible(false);
+    try {
+      const response = await fetch('https://sheetdb.io/api/v1/4acvh3h1bgc1l', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ data: formData }),
+      });
+      if (response.ok) {
+        alert('Consultation request submitted successfully!');
+        setFormData({ name: '', email: '', phone: '', business: '', service: '' });
+        setIsFormOpen(false);
+        setIsVisible(false);
+      } else {
+        alert('There was an error submitting the form.');
+      }
+    } catch (error) {
+      alert('There was an error submitting the form.');
+    }
   };
 
   if (!isVisible) return null;
@@ -73,7 +104,10 @@ const ConsultationPopup = () => {
                 </label>
                 <input
                   type="text"
+                  name="name"
                   required
+                  value={formData.name}
+                  onChange={handleChange}
                   className="w-full px-3 py-2 sm:px-4 sm:py-3 bg-gray-800/50 backdrop-blur-sm border border-gray-600/50 rounded-lg sm:rounded-xl text-white text-sm sm:text-base focus:outline-none focus:ring-2 focus:ring-[#513cb3] focus:border-transparent transition-all duration-300"
                   placeholder="Your full name"
                 />
@@ -85,9 +119,26 @@ const ConsultationPopup = () => {
                 </label>
                 <input
                   type="email"
+                  name="email"
                   required
+                  value={formData.email}
+                  onChange={handleChange}
                   className="w-full px-3 py-2 sm:px-4 sm:py-3 bg-gray-800/50 backdrop-blur-sm border border-gray-600/50 rounded-lg sm:rounded-xl text-white text-sm sm:text-base focus:outline-none focus:ring-2 focus:ring-[#513cb3] focus:border-transparent transition-all duration-300"
                   placeholder="your@email.com"
+                />
+              </div>
+
+              <div>
+                <label className="block text-xs sm:text-sm font-medium text-gray-300 mb-1 sm:mb-2">
+                  Phone
+                </label>
+                <input
+                  type="tel"
+                  name="phone"
+                  value={formData.phone}
+                  onChange={handleChange}
+                  className="w-full px-3 py-2 sm:px-4 sm:py-3 bg-gray-800/50 backdrop-blur-sm border border-gray-600/50 rounded-lg sm:rounded-xl text-white text-sm sm:text-base focus:outline-none focus:ring-2 focus:ring-[#513cb3] focus:border-transparent transition-all duration-300"
+                  placeholder="Your phone number"
                 />
               </div>
 
@@ -97,7 +148,10 @@ const ConsultationPopup = () => {
                 </label>
                 <input
                   type="text"
+                  name="business"
                   required
+                  value={formData.business}
+                  onChange={handleChange}
                   className="w-full px-3 py-2 sm:px-4 sm:py-3 bg-gray-800/50 backdrop-blur-sm border border-gray-600/50 rounded-lg sm:rounded-xl text-white text-sm sm:text-base focus:outline-none focus:ring-2 focus:ring-[#513cb3] focus:border-transparent transition-all duration-300"
                   placeholder="Your business name"
                 />
@@ -107,7 +161,12 @@ const ConsultationPopup = () => {
                 <label className="block text-xs sm:text-sm font-medium text-gray-300 mb-1 sm:mb-2">
                   Service Interest
                 </label>
-                <select className="w-full px-3 py-2 sm:px-4 sm:py-3 bg-gray-800/50 backdrop-blur-sm border border-gray-600/50 rounded-lg sm:rounded-xl text-white text-sm sm:text-base focus:outline-none focus:ring-2 focus:ring-[#513cb3] focus:border-transparent transition-all duration-300">
+                <select
+                  name="service"
+                  value={formData.service}
+                  onChange={handleChange}
+                  className="w-full px-3 py-2 sm:px-4 sm:py-3 bg-gray-800/50 backdrop-blur-sm border border-gray-600/50 rounded-lg sm:rounded-xl text-white text-sm sm:text-base focus:outline-none focus:ring-2 focus:ring-[#513cb3] focus:border-transparent transition-all duration-300"
+                >
                   <option value="">Select a service</option>
                   <option value="basic">Basic but Bold</option>
                   <option value="trending">Trending Now</option>
