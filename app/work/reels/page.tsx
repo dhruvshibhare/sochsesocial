@@ -10,6 +10,8 @@ export default function Reels() {
     { video: "/videos/reel4.mp4" },
     { video: "/videos/reel5.mp4" },
     { video: "/videos/reel6.mp4" },
+    { video: "/videos/reel7.mp4" },
+    { video: "/videos/reel8.mp4" },
   ];
 
   return (

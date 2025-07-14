@@ -188,21 +188,31 @@ export default function Contact() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
             {[
               {
-                question: "How quickly can you start my project?",
-                answer: "We can typically start new projects within 5-7 business days of contract signing, depending on our current workload and your project requirements."
-              },
-              {
-                question: "Do you work with small businesses?",
-                answer: "Absolutely! We work with businesses of all sizes, from startups to Fortune 500 companies. Our Basic but Bold package is perfect for small businesses."
-              },
-              {
                 question: "What platforms do you manage?",
-                answer: "We specialize in Instagram, TikTok, Facebook, Twitter, LinkedIn, and YouTube. We can also help with emerging platforms as they become relevant."
+                answer: "We currently manage Instagram and Facebook for our clients, but we also create strategies that can be adapted to other platforms if needed"
               },
               {
-                question: "Can I see examples of your work?",
-                answer: "Yes! Check out our portfolio section to see examples of our work across different industries and campaign types. We're proud of our results."
-              }
+                question: "How do I choose the right package for my business?",
+                answer: "Each package - Basic but Bold, Trending Now, and Viral Vision, is designed to match different levels of social media needs and budgets. If you’re unsure, we’ll be happy to hop on a quick call and recommend the best fit for your goals"
+              },
+              {
+                question: "Do you create content for us or do we need to provide it?",
+                answer: "We handle everything end-to-end from content ideas and scripting to designing posts, reels, and stories. Of course, we love to collaborate, so if you have any brand assets or must-haves, we’ll include them too!"
+              },
+              {
+                question: "Can I upgrade or downgrade my package later?",
+                answer: "Absolutely! We understand that your social media needs can evolve. You can switch to a different package with just a month’s notice."
+              },
+              {
+                question: "Do you run ads too?",
+                answer: "Yes! Our Trending Now and Viral Vision packages include ad targeting and management"
+              },
+              {
+                question: "How do you measure success?",
+                answer: "We share regular performance reports so you know exactly what’s working, reach, engagement, follower growth, and more. Transparency and improvement are our top priorities."
+              },
+             
+
             ].map((faq, index) => (
               <div key={index} className="bg-gray-800 p-4 sm:p-6 rounded-xl hover:bg-gray-700 transition-all duration-300 animate-scale-in" style={{animationDelay: `${index * 200}ms`}}>
                 <h3 className="text-base sm:text-lg font-bold text-white mb-2 sm:mb-3">{faq.question}</h3>
