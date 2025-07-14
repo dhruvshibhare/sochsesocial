@@ -14,7 +14,7 @@ export default function Founders() {
   const founders = [
     {
       name: "Kriti Kapoor",
-      image: "https://images.peyjhtgxels.chbgom/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "/images/f1.PNG",
       bio: "Hola! I’m Kriti — a digital marketing specialist with 2+ years of turning creative ideas into strategies that actually work.For me, social media is all about building genuine connections that keep people coming back. I make sure our clients feel truly heard and their audience feels something real every time they see their brand online. Once I’m in, I’m all in — no half measures, just honest effort. If you catch me panicking, don’t worry, it just means I care enough to get every reel,grid, and post exactly right.",
       social: {
         linkedin: "#",
@@ -24,7 +24,7 @@ export default function Founders() {
     },
     {
       name: "Ishika Verma",
-      image: "https://images.pexels.cynhtbom/photobgs/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "/images/f3.png",
       bio: "Hi, I’m Ishika — a digital marketer with 3+ years of hands-on experience in social media and brand strategy. I believe every brand has a story worth telling, and I’m here to make sure it connects with the right people in the smartest way.For me, real growth is more than likes and numbers — it’s about building trust, staying consistent, and creating a bond between the brand and its audience. And when things get hectic? Staying calm is part of my job too.",
       social: {
         linkedin: "#",
