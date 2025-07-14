@@ -133,7 +133,7 @@ export default function Home() {
                 <ArrowRight className="ml-2 sm:ml-3 h-4 w-4 sm:h-5 sm:w-5 lg:h-6 lg:w-6 group-hover:translate-x-2 transition-transform duration-300" />
               </Link>
               <Link
-                href="/work/grid"
+                href="/work/reels"
                 className="border-2 border-[#513cb3] text-[#513cb3] hover:bg-[#513cb3] hover:text-white px-6 py-3 sm:px-8 sm:py-4 lg:px-10 lg:py-5 rounded-full text-sm sm:text-base lg:text-lg font-semibold flex items-center justify-center transition-all duration-300 transform hover:scale-105 backdrop-blur-sm group"
               >
                 View Our Work
