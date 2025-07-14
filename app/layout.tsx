@@ -19,6 +19,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark">
+      <head>
+        <link rel="preload" as="video" href="/videos/reel1.mp4" type="video/mp4" />
+        <link rel="preload" as="video" href="/videos/reel2.mp4" type="video/mp4" />
+        <link rel="preload" as="video" href="/videos/reel3.mp4" type="video/mp4" />
+        <link rel="preload" as="video" href="/videos/reel4.mp4" type="video/mp4" />
+        <link rel="preload" as="video" href="/videos/reel5.mp4" type="video/mp4" />
+        <link rel="preload" as="video" href="/videos/reel6.mp4" type="video/mp4" />
+        <link rel="preload" as="video" href="/videos/reel7.mp4" type="video/mp4" />
+        <link rel="preload" as="video" href="/videos/reel8.mp4" type="video/mp4" />
+      </head>
       <body className={`${inter.className} bg-black text-white`}>
         <Navbar />
         <main className="min-h-screen">
