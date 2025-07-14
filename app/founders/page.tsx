@@ -24,7 +24,7 @@ export default function Founders() {
     },
     {
       name: "Ishika Verma",
-      image: "/images/f2.png",
+      image: "/images/f21.png",
       bio: "Hi, I’m Ishika — a digital marketer with 3+ years of hands-on experience in social media and brand strategy. I believe every brand has a story worth telling, and I’m here to make sure it connects with the right people in the smartest way.For me, real growth is more than likes and numbers — it’s about building trust, staying consistent, and creating a bond between the brand and its audience. And when things get hectic? Staying calm is part of my job too.",
       social: {
         linkedin: "#",
