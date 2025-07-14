@@ -51,9 +51,8 @@ more shares, more love.
                   muted
                   loop
                   playsInline
-                  preload="none"
-                  onMouseOver={e => { e.currentTarget.play(); }}
-                  onMouseOut={e => { e.currentTarget.pause(); e.currentTarget.currentTime = 0; }}
+                  autoPlay
+                  preload="auto"
                   controls={false}
                 />
               </div>
