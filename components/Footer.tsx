@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Instagram, Facebook, Twitter, Linkedin, Mail, Phone } from 'lucide-react';
+import { Instagram, Linkedin, Mail, } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -17,14 +17,8 @@ const Footer = () => {
               We create viral content that drives engagement and delivers results.
             </p>
             <div className="flex space-x-3 sm:space-x-4">
-              <a href="#" className="text-gray-400 hover:text-[#513cb3] transition-colors duration-300 transform hover:scale-110">
+              <a href="https://www.instagram.com/sochsesocial/" className="text-gray-400 hover:text-[#513cb3] transition-colors duration-300 transform hover:scale-110">
                 <Instagram className="h-4 w-4 sm:h-5 sm:w-5" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-[#513cb3] transition-colors duration-300 transform hover:scale-110">
-                <Facebook className="h-4 w-4 sm:h-5 sm:w-5" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-[#513cb3] transition-colors duration-300 transform hover:scale-110">
-                <Twitter className="h-4 w-4 sm:h-5 sm:w-5" />
               </a>
               <a href="#" className="text-gray-400 hover:text-[#513cb3] transition-colors duration-300 transform hover:scale-110">
                 <Linkedin className="h-4 w-4 sm:h-5 sm:w-5" />
@@ -46,7 +40,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/work" className="text-gray-400 hover:text-[#d3f350] transition-colors duration-300 text-sm sm:text-base">
+                <Link href="/work/reels" className="text-gray-400 hover:text-[#d3f350] transition-colors duration-300 text-sm sm:text-base">
                   Portfolio
                 </Link>
               </li>
@@ -63,7 +57,7 @@ const Footer = () => {
             <ul className="space-y-1 sm:space-y-2">
               <li className="flex items-center text-gray-400 text-sm sm:text-base">
                 <Mail className="h-3 w-3 sm:h-4 sm:w-4 mr-2 text-[#513cb3]" />
-                info@sochsesocial.com
+                sochsesocial@gmail.com
               </li>
               <li className="flex items-center text-gray-400 text-sm sm:text-base"></li>
             </ul>
@@ -71,7 +65,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-[#513cb3]/20 mt-6 sm:mt-8 pt-6 sm:pt-8 text-center text-gray-400">
-          <p className="text-xs sm:text-sm">&copy; 2025 Sochsesocial. All rights reserved. Powered by ShopVix.co</p>
+          <p className="text-xs sm:text-sm">&copy; 2025 Sochsesocial. All rights reserved. Powered by Shopvix</p>
         </div>
       </div>
     </footer>
