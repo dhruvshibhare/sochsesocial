@@ -21,7 +21,7 @@ export default function About() {
             <div className="mx-auto max-w-3xl bg-white/10 backdrop-blur-md rounded-3xl shadow-2xl border border-[#513cb3]/30 px-6 py-10 sm:px-12 sm:py-14 flex flex-col items-center">
               <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 sm:mb-6 flex items-center justify-center gap-3">
                 <span className="bg-gradient-to-r from-[#513cb3] to-[#d3f350] bg-clip-text text-transparent"></span>
-                <img src={process.env.NODE_ENV === 'production' ? '/sochsesocial/logo.png' : '/logo.png'} alt="Sochsesocial" className="h-25 w-45 object-contain" />
+                <img src="/logo.png" alt="Sochsesocial" className="h-25 w-45 object-contain" />
               </h1>
               <p className="text-base sm:text-lg lg:text-xl text-gray-300 max-w-3xl mx-auto mb-6">
               Soch Se Social isn't just a name, it's literally how this started. A bunch of 

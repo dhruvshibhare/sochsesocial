@@ -3,14 +3,14 @@ import { ArrowLeft } from 'lucide-react';
 
 export default function Analytics() {
   const analyticsWork = [
-    { image: process.env.NODE_ENV === 'production' ? '/sochsesocial/images/a1.png' : '/images/a1.png' },
-    { image: process.env.NODE_ENV === 'production' ? '/sochsesocial/images/a2.PNG' : '/images/a2.PNG' },
-    { image: process.env.NODE_ENV === 'production' ? '/sochsesocial/images/a3.PNG' : '/images/a3.PNG' },
-    { image: process.env.NODE_ENV === 'production' ? '/sochsesocial/images/a4.PNG' : '/images/a4.PNG' },
-    { image: process.env.NODE_ENV === 'production' ? '/sochsesocial/images/a5.PNG' : '/images/a5.PNG' },
-    { image: process.env.NODE_ENV === 'production' ? '/sochsesocial/images/a6.PNG' : '/images/a6.PNG' },
-    { image: process.env.NODE_ENV === 'production' ? '/sochsesocial/images/a7.PNG' : '/images/a7.PNG' },
-    { image: process.env.NODE_ENV === 'production' ? '/sochsesocial/images/a8.PNG' : '/images/a8.PNG' },
+    { image: '/images/a1.png' },
+    { image: '/images/a2.PNG' },
+    { image: '/images/a3.PNG' },
+    { image: '/images/a4.PNG' },
+    { image: '/images/a5.PNG' },
+    { image: '/images/a6.PNG' },
+    { image: '/images/a7.PNG' },
+    { image: '/images/a8.PNG' },
   ];
 
   return (

@@ -59,7 +59,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16 sm:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center group" onClick={() => setIsOpen(false)}>
-            <img src={process.env.NODE_ENV === 'production' ? '/sochsesocial/logo.png' : '/logo.png'} alt="Sochsesocial" className="max-h-8 max-w-16 sm:max-h-10 sm:max-w-20 lg:max-h-12 lg:max-w-28 object-contain" />
+            <img src="/logo.png" alt="Sochsesocial" className="max-h-8 max-w-16 sm:max-h-10 sm:max-w-20 lg:max-h-12 lg:max-w-28 object-contain" />
           </Link>
 
           {/* Center Navigation - Desktop */}

@@ -4,21 +4,21 @@ import OptimizedImage from '@/components/OptimizedImage';
 
 export default function GridAesthetics() {
   const gridWork = [
-    { image: process.env.NODE_ENV === 'production' ? '/sochsesocial/images/d1.png' : '/images/d1.png' },
-    { image: process.env.NODE_ENV === 'production' ? '/sochsesocial/images/d2.png' : '/images/d2.png' },
-    { image: process.env.NODE_ENV === 'production' ? '/sochsesocial/images/d3.png' : '/images/d3.png' },
-    { image: process.env.NODE_ENV === 'production' ? '/sochsesocial/images/d4.png' : '/images/d4.png' },
-    { image: process.env.NODE_ENV === 'production' ? '/sochsesocial/images/d5.png' : '/images/d5.png' },
-    { image: process.env.NODE_ENV === 'production' ? '/sochsesocial/images/d6.png' : '/images/d6.png' },
-    { image: process.env.NODE_ENV === 'production' ? '/sochsesocial/images/d7.png' : '/images/d7.png' },
-    { image: process.env.NODE_ENV === 'production' ? '/sochsesocial/images/d8.png' : '/images/d8.png' },
-    { image: process.env.NODE_ENV === 'production' ? '/sochsesocial/images/d9.png' : '/images/d9.png' },
-    { image: process.env.NODE_ENV === 'production' ? '/sochsesocial/images/d10.png' : '/images/d10.png' },
-    { image: process.env.NODE_ENV === 'production' ? '/sochsesocial/images/d11.png' : '/images/d11.png' },
-    { image: process.env.NODE_ENV === 'production' ? '/sochsesocial/images/d12.png' : '/images/d12.png' },
-    { image: process.env.NODE_ENV === 'production' ? '/sochsesocial/images/d13.png' : '/images/d13.png' },
-    { image: process.env.NODE_ENV === 'production' ? '/sochsesocial/images/d14.png' : '/images/d14.png' },
-    { image: process.env.NODE_ENV === 'production' ? '/sochsesocial/images/d15.png' : '/images/d15.png' },
+    { image: '/images/d1.png' },
+    { image: '/images/d2.png' },
+    { image: '/images/d3.png' },
+    { image: '/images/d4.png' },
+    { image: '/images/d5.png' },
+    { image: '/images/d6.png' },
+    { image: '/images/d7.png' },
+    { image: '/images/d8.png' },
+    { image: '/images/d9.png' },
+    { image: '/images/d10.png' },
+    { image: '/images/d11.png' },
+    { image: '/images/d12.png' },
+    { image: '/images/d13.png' },
+    { image: '/images/d14.png' },
+    { image: '/images/d15.png' },
   ];
 
   return (
