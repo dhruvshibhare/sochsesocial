@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { Instagram, Linkedin, Mail, } from 'lucide-react';
 
 const Footer = () => {
@@ -8,9 +9,14 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6 sm:gap-8">
           <div className="col-span-1 md:col-span-2">
             <Link href="/" className="flex items-center mb-3 sm:mb-4">
-              <span className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-[#513cb3] to-[#d3f350] bg-clip-text text-transparent">
-                Sochsesocial
-              </span>
+              <Image
+                src="/logo.png"
+                alt="Soch Se Social Logo"
+                width={140}
+                height={40}
+                className="object-contain h-10 w-auto"
+                priority
+              />
             </Link>
             <p className="text-gray-400 mb-3 sm:mb-4 max-w-md text-sm sm:text-base">
               Elevating brands through innovative social media marketing strategies. 
