@@ -186,7 +186,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="text-base sm:text-lg font-semibold text-white mb-1">Email</h3>
-                  <p className="text-gray-300 text-sm sm:text-base">info@sochsesocial.com</p>
+                  <p className="text-gray-300 text-sm sm:text-base">sochsesocial@gmail.com</p>
                   <p className="text-gray-400 text-xs sm:text-sm">Response within 24 hours</p>
                 </div>
               </div>
