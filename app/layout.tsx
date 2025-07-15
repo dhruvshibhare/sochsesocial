@@ -20,6 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <head>
+        <link rel="icon" href="/svg.svg" type="image/svg" />
         <link rel="preload" as="video" href="/videos/reel1.mp4" type="video/mp4" />
         <link rel="preload" as="video" href="/videos/reel2.mp4" type="video/mp4" />
         <link rel="preload" as="video" href="/videos/reel3.mp4" type="video/mp4" />
