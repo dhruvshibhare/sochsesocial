@@ -197,7 +197,11 @@ export default function Contact() {
                   Book a free 30-minute consultation to discuss your social media goals and 
                   see how we can help you achieve them.
                 </p>
-                <button className="bg-gradient-to-r from-[#513cb3] to-[#d3f350] hover:from-[#4a35a1] hover:to-[#c5e847] text-black px-4 py-2 sm:px-6 sm:py-3 rounded-lg font-semibold text-sm sm:text-base transition-all duration-300 transform hover:scale-105">
+                 <button
+                  type="button"
+                  onClick={() => window.dispatchEvent(new Event('openConsultation'))}
+                  className="bg-gradient-to-r from-[#513cb3] to-[#d3f350] hover:from-[#4a35a1] hover:to-[#c5e847] text-black px-4 py-2 sm:px-6 sm:py-3 rounded-lg font-semibold text-sm sm:text-base transition-all duration-300 transform hover:scale-105"
+                >
                   Book Free Consultation
                 </button>
               </div>
