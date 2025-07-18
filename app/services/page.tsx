@@ -213,13 +213,13 @@ with enough flexibility to adapt as you grow.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href="/contact"
+              href="/components/ConsultationPopup.tsx"
               className="bg-gradient-to-r from-[#513cb3] to-[#d3f350] hover:from-[#4a35a1] hover:to-[#c5e847] text-black px-6 py-3 sm:px-8 sm:py-4 rounded-full text-sm sm:text-base lg:text-lg font-semibold transition-all duration-300 transform hover:scale-105"
             >
               Get Free Consultation
             </Link>
             <Link
-              href="/grid"
+              href="/work/grid"
               className="border-2 border-[#513cb3] text-[#513cb3] hover:bg-[#513cb3] hover:text-white px-6 py-3 sm:px-8 sm:py-4 rounded-full text-sm sm:text-base lg:text-lg font-semibold transition-all duration-300 transform hover:scale-105"
             >
               View Our Work
