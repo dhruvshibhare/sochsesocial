@@ -19,7 +19,17 @@ const ConsultationPopup = () => {
       setIsVisible(true);
     }, 8000);
 
-    return () => clearTimeout(timer);
+     // Allow other components to open this popup programmatically
+    const openPopup = () => {
+      setIsVisible(true);
+      setIsFormOpen(true);
+    };
+    window.addEventListener('openConsultation', openPopup);
+
+    return () => {
+      clearTimeout(timer);
+      window.removeEventListener('openConsultation', openPopup);
+    };
   }, []);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
